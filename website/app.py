@@ -23,6 +23,7 @@ from views.robots_txt import robots_txt_bp
 
 from middleware import auth, csp
 
+
 app = Flask(__name__)
 
 app.register_blueprint(errors_bp)
