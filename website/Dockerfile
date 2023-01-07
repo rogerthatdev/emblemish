@@ -19,6 +19,7 @@ FROM python:3.10-slim
 # Allow statements and log messages to immediately appear in the Cloud Run logs
 ENV PYTHONUNBUFFERED True
 
+
 # Hide auth warnings on Cloud Run
 ENV HIDE_AUTH_WARNINGS True
 
