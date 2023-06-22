@@ -21,6 +21,7 @@ from views.errors import errors_bp
 from views.auth import auth_bp
 from views.robots_txt import robots_txt_bp
 
+
 from middleware import auth, csp
 
 app = Flask(__name__)
